@@ -10,11 +10,6 @@ def main(argv=None, apply_config=True):
     except AttributeError:
         pass
 
-    try:
-        # Do something...
-    except KeyboardInterrupt:
-        return 0
-
 
 if __name__ == '__main__':
     sys.exit(main())
