@@ -26,6 +26,4 @@ def replace_quotes(target_file, rule):
         os.rename(new_file, target_file)
 
 
-def walkthrough_dir():
-    pass
 
