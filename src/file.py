@@ -7,8 +7,8 @@ def replace_quotes(target_file, rule):
     
     new_file = 'temp.py.bak'
     common_quote = {
-        'double-to-single': ['\"', '\''],
-        'single-to-double': ['\'', '\"'],
+        'single': ['\"', '\''],
+        'double': ['\'', '\"'],
     }
     replace_rule = common_quote[rule]
 
